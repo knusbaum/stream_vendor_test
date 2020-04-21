@@ -1,0 +1,880 @@
+positions: instr line
+events: alloc_space(kB)
+
+ob=
+fl=(1) /Users/kyle.nusbaum/Documents/CodeBase/gotree/pkg/mod/github.com/!data!dog/datadog-go@v3.2.0+incompatible/statsd/buffer.go
+fn=(1) github.com/DataDog/datadog-go/statsd.newStatsdBuffer
+0x14afc79 22 12151446
++26 24 307214
+
+ob=
+fl=(2) /Users/kyle.nusbaum/Documents/CodeBase/gotree/src/gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer/tracer.go
+fn=(2) gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer.newTracer
++238837 181 69168
+
+ob=
+fl=(3) /Users/kyle.nusbaum/Documents/CodeBase/gotree/pkg/mod/github.com/!data!dog/datadog-go@v3.2.0+incompatible/statsd/sender.go
+fn=(3) github.com/DataDog/datadog-go/statsd.newSender
+-220320 42 49923
+
+ob=
+fl=(4) /Users/kyle.nusbaum/Documents/CodeBase/gotree/pkg/mod/github.com/!data!dog/datadog-go@v3.2.0+incompatible/statsd/buffer_pool.go
+fn=(4) github.com/DataDog/datadog-go/statsd.newBufferPool
+-18922 11 40555
+
+ob=
+fl=(5) /usr/local/Cellar/go/1.13.1/libexec/src/bytes/buffer.go
+fn=(5) bytes.makeSlice
+-3533018 229 1545
+
+ob=
+fl=(6) /usr/local/Cellar/go/1.13.1/libexec/src/runtime/proc.go
+fn=(6) runtime.malg
+-919140 3232 1536
+
+ob=
+fl=(7) /usr/local/Cellar/go/1.13.1/libexec/src/runtime/pprof/pprof.go
+fn=(7) runtime/pprof.StartCPUProfile
++1450838 763 1184
+
+ob=
+fl=(8) /Users/kyle.nusbaum/Documents/CodeBase/gotree/src/gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer/span_msgp.go
+fn=(8) gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer.(*span).DecodeMsg
++3207767 87 1024
+
+ob=
+fl=(2)
+fn=(9) gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer.(*tracer).StartSpan
++38720 284 1024
+
+ob=
+fl=(9) /usr/local/Cellar/go/1.13.1/libexec/src/time/tick.go
+fn=(10) time.NewTicker
+-4040232 28 1024
+
+ob=
+fl=(10) /usr/local/Cellar/go/1.13.1/libexec/src/compress/flate/deflate.go
+fn=(11) compress/flate.NewWriter
++670169 667 902
+
+ob=
+fl=(10)
+fn=(12) compress/flate.(*compressor).init
+-3566 593 650
+
+ob=
+fl=(11) /usr/local/Cellar/go/1.13.1/libexec/src/runtime/pprof/proto.go
+fn=(13) runtime/pprof.(*profileBuilder).stringIndex
++143934 139 516
+
+ob=
+fl=(12) /Users/kyle.nusbaum/Documents/CodeBase/gotree/pkg/mod/github.com/tinylib/msgp@v1.1.0/msgp/write.go
+fn=(14) github.com/tinylib/msgp/msgp.glob..func2
++2967810 31 513
+
+ob=
+fl=(13) /usr/local/Cellar/go/1.13.1/libexec/src/regexp/syntax/compile.go
+fn=(15) regexp/syntax.(*compiler).inst
+-3355036 173 512
+
+ob=
+fl=(14) /Users/kyle.nusbaum/Documents/CodeBase/gotree/src/gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer/span.go
+fn=(16) gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer.(*span).setMeta
++3618464 210 512
+
+ob=
+fl=(14)
+fn=(17) gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer.(*span).setMetric
+-48329 252 512
+
+ob=
+fl=(8)
+fn=(18) gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer.(*spanLists).DecodeMsg
++19960 399 512
+
+ob=
+fl=(15) /Users/kyle.nusbaum/Documents/CodeBase/gotree/pkg/mod/github.com/!data!dog/datadog-go@v3.2.0+incompatible/statsd/statsd.go
+fn=(19) github.com/DataDog/datadog-go/statsd.newWithWriter
+-194901 253 512
+
+ob=
+fl=(16) /Users/kyle.nusbaum/Documents/CodeBase/gotree/pkg/mod/github.com/!data!dog/datadog-go@v3.2.0+incompatible/statsd/options.go
+fn=(20) github.com/DataDog/datadog-go/statsd.resolveOptions
+-5792 63 512
+
+ob=
+fl=(3)
+fn=(3)
++1309 43 512
+
+ob=
+fl=(15)
+fn=(19)
++5725 274 512
+
+ob=
+fl=(17) /Users/kyle.nusbaum/Documents/CodeBase/gotree/src/gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer/spancontext.go
+fn=(21) gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer.newTrace
++196742 157 512
+
+ob=
+fl=(2)
+fn=(2)
++18118 185 512
+
+ob=
+fl=(14)
+fn=(22) gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer.(*span).Finish
+-40293 259 512
+
+ob=
+fl=(2)
+fn=(9)
++45427 256 512
+
+ob=
+fl=(18) /usr/local/Cellar/go/1.13.1/libexec/src/context/context.go
+fn=(23) context.WithValue
+-3748029 487 512
+
+ob=
+fl=(19) /usr/local/Cellar/go/1.13.1/libexec/src/net/cgo_unix.go
+fn=(24) net.cgoLookupIPCNAME
++895752 211 512
+
+ob=
+fl=(20) /usr/local/Cellar/go/1.13.1/libexec/src/net/ipsock.go
+fn=(25) net.filterAddrList
+-105711 128 512
+
+ob=
+fl=(21) /Users/kyle.nusbaum/Documents/CodeBase/gotree/src/gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer/payload.go
+fn=(26) gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer.(*payload).push
++2891273 64 512
+
+ob=
+fl=(22) /usr/local/Cellar/go/1.13.1/libexec/src/net/lookup.go
+fn=(27) net.(*Resolver).lookupIPAddr
+-2876035 253 512
+
+ob=
+fl=(23) /Users/kyle.nusbaum/Documents/CodeBase/gotree/src/gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer/textmap.go
+fn=(28) gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer.getPropagators
++2928497 150 512
+-1110 147 512
+
+ob=
+fl=(6)
+fn=(29) runtime.main
+-4712178 203 0
+cfl=(24) _testmain.go
+cfn=(30) main.main
+calls=0 +254484 244
+* * 1696
+
+ob=
+fl=(6)
+fn=(31) runtime.mstart
++11363 1146 0
+cfl=(25) /usr/local/Cellar/go/1.13.1/libexec/src/runtime/asm_amd64.s
+cfn=(32) runtime.systemstack
+calls=0 +184696 370
+* * 1536
+
+ob=
+fl=(6)
+fn=(33) runtime.newproc1
++20776 3285 0
+cfl=(6)
+cfn=(6)
+calls=0 +19344 3232
+* * 1536
+
+ob=
+fl=(6)
+fn=(34) runtime.newproc.func1
++150454 3256 0
+cfl=(6)
+cfn=(33)
+calls=0 * 3285
+* * 1536
+
+ob=
+fl=(25)
+fn=(32)
++2103 370 0
+cfl=(6)
+cfn=(34)
+calls=0 * 3256
+* * 1536
+
+ob=
+fl=(26) /usr/local/Cellar/go/1.13.1/libexec/src/sync/pool.go
+fn=(35) sync.(*Pool).Get
++164665 148 0
+cfl=(12)
+cfn=(14)
+calls=0 +4281451 31
+* * 513
+
+ob=
+fl=(5)
+fn=(36) bytes.(*Buffer).grow
++597341 142 0
+cfl=(5)
+cfn=(5)
+calls=0 +600486 229
+* * 1545
+
+ob=
+fl=(5)
+fn=(37) bytes.(*Buffer).Write
++1593 172 0
+cfl=(5)
+cfn=(36)
+calls=0 * 142
+* * 1545
+
+ob=
+fl=(27) /usr/local/Cellar/go/1.13.1/libexec/src/runtime/trace/annotation.go
+fn=(38) runtime/trace.NewTask
++38321 39 0
+cfl=(18)
+cfn=(23)
+calls=0 +31217 487
+* * 512
+
+ob=
+fl=(28) /usr/local/Cellar/go/1.13.1/libexec/src/testing/match.go
+fn=(39) testing.newMatcher
++29012 37 0
+cfl=(29) /usr/local/Cellar/go/1.13.1/libexec/src/testing/internal/testdeps/deps.go
+cfn=(40) testing/internal/testdeps.TestDeps.MatchString
+calls=0 +538154 33
+* * 512
+
+ob=
+fl=(30) /usr/local/Cellar/go/1.13.1/libexec/src/testing/testing.go
+fn=(41) testing.(*M).Run
++25033 1113 0
+cfl=(30)
+cfn=(42) testing.(*M).before
+calls=0 +34633 1227
+* * 1184
++397 1117 0
+cfl=(30)
+cfn=(43) testing.runTests
+calls=0 +5504 1190
+* * 512
+
+ob=
+fl=(30)
+fn=(43)
++5107 1190 0
+cfl=(28)
+cfn=(39)
+calls=0 -25430 37
+* * 512
+
+ob=
+fl=(30)
+fn=(42)
++4096 1227 0
+cfl=(29)
+cfn=(44) testing/internal/testdeps.TestDeps.StartCPUProfile
+calls=0 +482165 42
+* * 1184
+
+ob=
+fl=(13)
+fn=(45) regexp/syntax.Compile
++44362 83 0
+cfl=(13)
+cfn=(46) regexp/syntax.(*compiler).compile
+calls=0 +52557 110
+* * 512
+
+ob=
+fl=(13)
+fn=(46)
++8195 110 0
+cfl=(13)
+cfn=(47) regexp/syntax.(*compiler).rune
+calls=0 +14878 267
+* * 512
+
+ob=
+fl=(13)
+fn=(47)
++6683 267 0
+cfl=(13)
+cfn=(15)
+calls=0 +8293 173
+* * 512
+
+ob=
+fl=(31) /usr/local/Cellar/go/1.13.1/libexec/src/regexp/regexp.go
+fn=(48) regexp.compile
++166684 178 0
+cfl=(13)
+cfn=(45)
+calls=0 -14878 83
+* * 512
+
+ob=
+fl=(10)
+fn=(11)
++81884 668 0
+cfl=(10)
+cfn=(12)
+calls=0 +78218 593
+* * 650
+
+ob=
+fl=(32) /usr/local/Cellar/go/1.13.1/libexec/src/compress/gzip/gzip.go
+fn=(49) compress/gzip.(*Writer).Write
++87418 191 0
+cfl=(10)
+cfn=(11)
+calls=0 -100 667
+* * 902
+cfl=(10)
+cfn=(11)
+calls=0 * 668
+* * 650
+
+ob=
+fl=(7)
+fn=(50) runtime/pprof.profileWriter
++36556 793 0
+cfl=(11)
+cfn=(51) runtime/pprof.(*profileBuilder).build
+calls=0 +58280 416
+* * 2069
+
+ob=
+fl=(11)
+fn=(52) runtime/pprof.(*profileBuilder).flush
++5522 147 0
+cfl=(32)
+cfn=(49)
+calls=0 -36556 191
+* * 1553
+
+ob=
+fl=(11)
+fn=(53) runtime/pprof.(*profileBuilder).locForPC
++8529 286 0
+cfl=(11)
+cfn=(13)
+calls=0 +10772 139
+* * 516
++611 292 0
+cfl=(11)
+cfn=(52)
+calls=0 -8529 147
+* * 1553
+
+ob=
+fl=(11)
+fn=(51)
++7062 416 0
+cfl=(11)
+cfn=(53)
+calls=0 * 292
+* * 1553
+cfl=(11)
+cfn=(53)
+calls=0 -611 286
+* * 516
+
+ob=
+fl=(29)
+fn=(40)
++21003 33 0
+cfl=(31)
+cfn=(54) regexp.Compile
+calls=0 +21058 133
+* * 512
+
+ob=
+fl=(31)
+fn=(54)
++55 133 0
+cfl=(31)
+cfn=(48)
+calls=0 -248585 178
+* * 512
+
+ob=
+fl=(29)
+fn=(44)
++3505 42 0
+cfl=(7)
+cfn=(7)
+calls=0 -43280 763
+* * 1184
+
+ob=
+fl=(20)
+fn=(55) net.(*Resolver).internetAddrList
++246320 280 0
+cfl=(22)
+cfn=(27)
+calls=0 +256461 253
+* * 512
++211 299 0
+cfl=(20)
+cfn=(25)
+calls=0 -5097 128
+* * 512
+
+ob=
+fl=(33) /usr/local/Cellar/go/1.13.1/libexec/src/net/udpsock.go
+fn=(56) net.ResolveUDPAddr
++70360 82 0
+cfl=(20)
+cfn=(55)
+calls=0 * 299
+* * 512
+cfl=(20)
+cfn=(55)
+calls=0 -211 280
+* * 512
+
+ob=
+fl=(19)
+fn=(57) net.cgoIPLookup
++31845 218 0
+cfl=(19)
+cfn=(24)
+calls=0 +30043 211
+* * 512
+
+ob=
+fl=(34) /Users/kyle.nusbaum/Documents/CodeBase/gotree/pkg/mod/github.com/tinylib/msgp@v1.1.0/msgp/read.go
+fn=(58) github.com/tinylib/msgp/msgp.Decode
++2525842 105 0
+cfl=(8)
+cfn=(18)
+calls=0 +2824033 401
+* * 1024
+cfl=(8)
+cfn=(18)
+calls=0 +2824140 399
+* * 512
+
+ob=
+fl=(12)
+fn=(59) github.com/tinylib/msgp/msgp.popWriter
++53733 37 0
+cfl=(26)
+cfn=(35)
+calls=0 -4053547 148
+* * 513
+
+ob=
+fl=(12)
+fn=(60) github.com/tinylib/msgp/msgp.Encode
++369 138 0
+cfl=(12)
+cfn=(61) github.com/tinylib/msgp/msgp.NewWriter
+calls=0 +635 118
+* * 513
+
+ob=
+fl=(12)
+fn=(62) github.com/tinylib/msgp/msgp.(*Writer).Flush
++232 164 0
+cfl=(12)
+cfn=(63) github.com/tinylib/msgp/msgp.(*Writer).flush
+calls=0 +568 151
+* * 1545
+
+ob=
+fl=(12)
+fn=(60)
++11 141 0
+cfl=(12)
+cfn=(62)
+calls=0 * 164
+* * 1545
+
+ob=
+fl=(12)
+fn=(61)
++23 118 0
+cfl=(12)
+cfn=(59)
+calls=0 -612 37
+* * 513
+
+ob=
+fl=(12)
+fn=(63)
++302 151 0
+cfl=(5)
+cfn=(37)
+calls=0 -3508981 172
+* * 1545
+
+ob=
+fl=(4)
+fn=(64) github.com/DataDog/datadog-go/statsd.(*bufferPool).addNewBuffer
++25487 22 0
+cfl=(1)
+cfn=(1)
+calls=0 +25666 22
+* * 12151446
+cfl=(1)
+cfn=(1)
+calls=0 +25692 24
+* * 307214
+
+ob=
+fl=(4)
+fn=(4)
++81 16 0
+cfl=(4)
+cfn=(64)
+calls=0 * 22
+* * 12458660
+
+ob=
+fl=(15)
+fn=(65) github.com/DataDog/datadog-go/statsd.New
++21523 204 0
+cfl=(16)
+cfn=(20)
+calls=0 +17367 63
+* * 512
++582 236 0
+cfl=(15)
+cfn=(19)
+calls=0 +2415 270
+* * 12499215
+cfl=(15)
+cfn=(19)
+calls=0 +2715 272
+* * 50436
+cfl=(15)
+cfn=(19)
+calls=0 +1636 253
+* * 512
+cfl=(15)
+cfn=(19)
+calls=0 +2878 274
+* * 512
++691 213 0
+cfl=(35) /Users/kyle.nusbaum/Documents/CodeBase/gotree/pkg/mod/github.com/!data!dog/datadog-go@v3.2.0+incompatible/statsd/udp.go
+cfn=(66) github.com/DataDog/datadog-go/statsd.newUDPWriter
+calls=0 +13157 31
+* * 1024
+
+ob=
+fl=(15)
+fn=(19)
++1142 270 0
+cfl=(4)
+cfn=(4)
+calls=0 -22796 16
+* * 12458660
+cfl=(4)
+cfn=(4)
+calls=0 -23077 11
+* * 40555
++300 272 0
+cfl=(3)
+cfn=(3)
+calls=0 -5297 42
+* * 49923
+cfl=(3)
+cfn=(3)
+calls=0 -5262 43
+* * 512
+
+ob=
+fl=(15)
+fn=(67) github.com/DataDog/datadog-go/statsd.(*Client).watch
++1446 299 0
+cfl=(9)
+cfn=(10)
+calls=0 -3819584 28
+* * 1024
+
+ob=
+fl=(35)
+fn=(66)
++9578 31 0
+cfl=(33)
+cfn=(56)
+calls=0 -2663609 82
+* * 1024
+
+ob=
+fl=(21)
+fn=(26)
++142460 64 0
+cfl=(12)
+cfn=(60)
+calls=0 -61155 141
+* * 1545
+cfl=(12)
+cfn=(60)
+calls=0 -61398 138
+* * 513
+
+ob=
+fl=(8)
+fn=(18)
++40231 401 0
+cfl=(8)
+cfn=(8)
+calls=0 +28444 87
+* * 1024
+
+ob=
+fl=(17)
+fn=(68) gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer.newSpanContext
++3332 60 0
+cfl=(17)
+cfn=(21)
+calls=0 +3190 157
+* * 512
+
+ob=
+fl=(23)
+fn=(69) gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer.NewPropagator
++7001 130 0
+cfl=(23)
+cfn=(28)
+calls=0 +7747 147
+* * 512
++68 131 0
+cfl=(23)
+cfn=(28)
+calls=0 +1856 150
+* * 512
+
+ob=
+fl=(2)
+fn=(70) gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer.Start
++8735 114 0
+cfl=(2)
+cfn=(2)
+calls=0 +10015 171
+* * 12552211
+cfl=(2)
+cfn=(2)
+calls=0 +10607 181
+* * 69168
+cfl=(2)
+cfn=(2)
+calls=0 +13490 161
+* * 1024
+cfl=(2)
+cfn=(2)
+calls=0 +10907 185
+* * 512
+
+ob=
+fl=(2)
+fn=(71) gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer.StartSpan
++291 131 0
+cfl=(2)
+cfn=(9)
+calls=0 +7797 284
+* * 1024
+cfl=(2)
+cfn=(9)
+calls=0 +9175 309
+* * 512
+cfl=(2)
+cfn=(9)
+calls=0 +11706 291
+* * 512
+cfl=(2)
+cfn=(9)
+calls=0 +8366 306
+* * 512
+cfl=(2)
+cfn=(9)
+calls=0 +7306 256
+* * 512
+cfl=(2)
+cfn=(9)
+calls=0 +7768 284
+* * 512
+
+ob=
+fl=(2)
+fn=(2)
++989 171 0
+cfl=(15)
+cfn=(65)
+calls=0 -215275 236
+* * 12550675
+cfl=(15)
+cfn=(65)
+calls=0 -214584 213
+* * 1024
+cfl=(15)
+cfn=(65)
+calls=0 -215857 204
+* * 512
++3475 161 0
+cfl=(23)
+cfn=(69)
+calls=0 -10015 131
+* * 512
+cfl=(23)
+cfn=(69)
+calls=0 -10083 130
+* * 512
+
+ob=
+fl=(2)
+fn=(72) gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer.(*tracer).worker
++1631 231 0
+cfl=(2)
+cfn=(73) gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer.(*tracer).flushPayload
+calls=0 +9366 368
+* * 1536
++342 206 0
+cfl=(2)
+cfn=(74) gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer.(*tracer).pushPayload
+calls=0 +8685 383
+* * 2570
+
+ob=
+fl=(2)
+fn=(9)
++1040 284 0
+cfl=(36) /Users/kyle.nusbaum/Documents/CodeBase/gotree/src/gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer/tracer_go11.go
+cfn=(75) gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer.startExecutionTracerTask
+calls=0 +9769 19
+* * 512
++598 306 0
+cfl=(17)
+cfn=(68)
+calls=0 -23572 60
+* * 512
++809 309 0
+cfl=(14)
+cfn=(16)
+calls=0 +974 210
+* * 512
++2531 291 0
+cfl=(14)
+cfn=(17)
+calls=0 -48164 252
+* * 512
+
+ob=
+fl=(2)
+fn=(73)
++2415 368 0
+cfl=(37) /Users/kyle.nusbaum/Documents/CodeBase/gotree/src/gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer/tracer_test.go
+cfn=(76) gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer.(*dummyTransport).send
+calls=0 +131308 1082
+* * 1536
+
+ob=
+fl=(2)
+fn=(74)
++950 383 0
+cfl=(21)
+cfn=(26)
+calls=0 -73488 64
+* * 2058
+cfl=(21)
+cfn=(26)
+calls=0 -73530 64
+* * 512
+
+ob=
+fl=(36)
+fn=(75)
++1426 19 0
+cfl=(27)
+cfn=(38)
+calls=0 -3748690 39
+* * 512
+
+ob=
+fl=(37)
+fn=(77) gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer.decode
++126493 1095 0
+cfl=(34)
+cfn=(58)
+calls=0 -333824 105
+* * 1536
+
+ob=
+fl=(37)
+fn=(76)
++24 1082 0
+cfl=(37)
+cfn=(77)
+calls=0 * 1095
+* * 1536
+
+ob=
+fl=(38) /Users/kyle.nusbaum/Documents/CodeBase/gotree/src/gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer/transport_test.go
+fn=(78) gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer.TestMain
++6763 30 0
+cfl=(30)
+cfn=(41)
+calls=0 -3822588 1113
+* * 1184
+cfl=(30)
+cfn=(41)
+calls=0 -3822191 1117
+* * 512
+
+ob=
+fl=(37)
+fn=(79) gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer.TestTracerCleanStop.func1
++56631 71 0
+cfl=(2)
+cfn=(71)
+calls=0 -149486 131
+* * 1536
++129 75 0
+cfl=(14)
+cfn=(22)
+calls=0 -244529 259
+* * 512
++72 70 0
+cfl=(2)
+cfn=(71)
+calls=0 -206246 131
+* * 2048
+
+ob=
+fl=(37)
+fn=(80) gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer.TestTracerCleanStop.func2
++457 84 0
+cfl=(2)
+cfn=(70)
+calls=0 -206609 114
+* * 4185279
++271 86 0
+cfl=(2)
+cfn=(70)
+calls=0 -207066 114
+* * 4237964
++258 87 0
+cfl=(2)
+cfn=(70)
+calls=0 -207337 114
+* * 4199672
+
+ob=
+fl=(24)
+fn=(30)
++38832 244 0
+cfl=(38)
+cfn=(78)
+calls=0 -57818 30
+* * 1696

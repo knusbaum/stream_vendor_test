@@ -1,0 +1,7 @@
+goos: darwin
+goarch: amd64
+pkg: gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer
+BenchmarkBaggageItemPresent-8   	535620591	        67.6 ns/op
+BenchmarkBaggageItemEmpty-8     	1000000000	         3.72 ns/op
+PASS
+ok  	gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer	47.253s

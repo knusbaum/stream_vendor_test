@@ -235,6 +235,60 @@
 			"path": "google.golang.org/grpc/tap",
 			"revision": "20bce9a0c607054bec357407b71b966ca861b1a1",
 			"revisionTime": "2020-01-10T22:33:38Z"
+		},
+		{
+			"checksumSHA1": "vzEpR4JghZdyYE8te/zf4bE6hQY=",
+			"path": "gopkg.in/DataDog/dd-trace-go.v1/contrib/google.golang.org/grpc",
+			"revision": "7a2bf44422d40abcf498681bdf4c7e31b5233619",
+			"revisionTime": "2020-04-20T17:52:08Z"
+		},
+		{
+			"checksumSHA1": "JmnjyHhXVoyE0AI7dlyTLP1HxwQ=",
+			"path": "gopkg.in/DataDog/dd-trace-go.v1/contrib/google.golang.org/internal/grpcutil",
+			"revision": "7a2bf44422d40abcf498681bdf4c7e31b5233619",
+			"revisionTime": "2020-04-20T17:52:08Z"
+		},
+		{
+			"checksumSHA1": "WnFmkwvrLqoECxQpO3GgZBkfUso=",
+			"path": "gopkg.in/DataDog/dd-trace-go.v1/ddtrace",
+			"revision": "7a2bf44422d40abcf498681bdf4c7e31b5233619",
+			"revisionTime": "2020-04-20T17:52:08Z"
+		},
+		{
+			"checksumSHA1": "C7evcUW3rgqjYdVRObawzYPVpZ4=",
+			"path": "gopkg.in/DataDog/dd-trace-go.v1/ddtrace/ext",
+			"revision": "7a2bf44422d40abcf498681bdf4c7e31b5233619",
+			"revisionTime": "2020-04-20T17:52:08Z"
+		},
+		{
+			"checksumSHA1": "i/SBMSRt/q0c3SzMXYogSqp4DOM=",
+			"path": "gopkg.in/DataDog/dd-trace-go.v1/ddtrace/internal",
+			"revision": "7a2bf44422d40abcf498681bdf4c7e31b5233619",
+			"revisionTime": "2020-04-20T17:52:08Z"
+		},
+		{
+			"checksumSHA1": "wfMqt8Le9UELAJ6F5kY2eOnS0Jo=",
+			"path": "gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer",
+			"revision": "7a2bf44422d40abcf498681bdf4c7e31b5233619",
+			"revisionTime": "2020-04-20T17:52:08Z"
+		},
+		{
+			"checksumSHA1": "mTqXvg97DJEbB3oR1NmePsDGMB8=",
+			"path": "gopkg.in/DataDog/dd-trace-go.v1/internal/globalconfig",
+			"revision": "7a2bf44422d40abcf498681bdf4c7e31b5233619",
+			"revisionTime": "2020-04-20T17:52:08Z"
+		},
+		{
+			"checksumSHA1": "Qnl5ZYm0d3FgeBcjdf8KNrIRxZY=",
+			"path": "gopkg.in/DataDog/dd-trace-go.v1/internal/log",
+			"revision": "7a2bf44422d40abcf498681bdf4c7e31b5233619",
+			"revisionTime": "2020-04-20T17:52:08Z"
+		},
+		{
+			"checksumSHA1": "iFXxiD2GPDhq12KMIgNZQTgrgRA=",
+			"path": "gopkg.in/DataDog/dd-trace-go.v1/internal/version",
+			"revision": "7a2bf44422d40abcf498681bdf4c7e31b5233619",
+			"revisionTime": "2020-04-20T17:52:08Z"
 		}
 	],
 	"rootPath": "github.com/knusbaum/stream_vendor_test"

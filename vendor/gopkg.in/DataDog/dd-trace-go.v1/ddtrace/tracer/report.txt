@@ -1,0 +1,10 @@
+OLD: f351755
+NEW: 6a50871
+name                  old time/op  new time/op  delta
+BaggageItemPresent-8  68.9ns ± 1%  68.4ns ± 1%   ~     (p=0.667 n=2+2)
+BaggageItemEmpty-8    37.4ns ± 0%   3.8ns ± 0%   ~     (p=0.333 n=2+2)
+OLD: f351755
+NEW: 6a50871
+name                  old time/op  new time/op  delta
+BaggageItemPresent-8   170ns ±12%    66ns ±11%  -60.91%  (p=0.000 n=14+20)
+BaggageItemEmpty-8    86.2ns ±59%   3.6ns ± 4%  -95.87%  (p=0.000 n=20+19)
